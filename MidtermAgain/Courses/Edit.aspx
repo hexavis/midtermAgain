@@ -1,5 +1,6 @@
-﻿<%@ Page Title="CoursEdit" Language="C#" MasterPageFile="~/Defualt.Master" CodeBehind="Edit.aspx.cs" Inherits="MidtermAgain.Courses.Edit" %>
+﻿<%@ Page Title="Course Edit" Language="C#" MasterPageFile="~/Defualt.Master" CodeBehind="Edit.aspx.cs" Inherits="MidtermAgain.Courses.Edit" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
+    <div class="main-wrapper">
     <div>
 		<p>&nbsp;</p>
         <asp:FormView runat="server"
@@ -27,5 +28,6 @@
             </EditItemTemplate>
         </asp:FormView>
     </div>
+        </div>
 </asp:Content>
 

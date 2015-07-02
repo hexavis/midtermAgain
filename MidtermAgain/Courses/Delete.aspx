@@ -1,5 +1,6 @@
-﻿<%@ Page Title="CoursDelete" Language="C#" MasterPageFile="~/Defualt.Master" CodeBehind="Delete.aspx.cs" Inherits="MidtermAgain.Courses.Delete" %>
+﻿<%@ Page Title="Course Delete" Language="C#" MasterPageFile="~/Defualt.Master" CodeBehind="Delete.aspx.cs" Inherits="MidtermAgain.Courses.Delete" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
+    <div class="main-wrapper">
     <div>
 		<p>&nbsp;</p>
         <h3>Are you sure want to delete this Cours?</h3>
@@ -66,5 +67,6 @@
             </ItemTemplate>
         </asp:FormView>
     </div>
+        </div>
 </asp:Content>
 

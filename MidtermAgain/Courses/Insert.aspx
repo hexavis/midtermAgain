@@ -1,5 +1,6 @@
-﻿<%@ Page Title="CoursInsert" Language="C#" MasterPageFile="~/Defualt.Master" CodeBehind="Insert.aspx.cs" Inherits="MidtermAgain.Courses.Insert" %>
+﻿<%@ Page Title="Course Insert" Language="C#" MasterPageFile="~/Defualt.Master" CodeBehind="Insert.aspx.cs" Inherits="MidtermAgain.Courses.Insert" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
+    <div class="main-wrapper">
     <div>
 		<p>&nbsp;</p>
         <asp:FormView runat="server"
@@ -24,4 +25,5 @@
             </InsertItemTemplate>
         </asp:FormView>
     </div>
+        </div>
 </asp:Content>

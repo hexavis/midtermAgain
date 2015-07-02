@@ -1,6 +1,7 @@
-﻿<%@ Page Title="CoursList" Language="C#" MasterPageFile="~/Defualt.Master" CodeBehind="Default.aspx.cs" Inherits="MidtermAgain.Courses.Default" %>
+﻿<%@ Page Title="Course List" Language="C#" MasterPageFile="~/Defualt.Master" CodeBehind="Default.aspx.cs" Inherits="MidtermAgain.Courses.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
+    <div class="main-wrapper">
     <h2>Courses List</h2>
     <p>
         <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
@@ -73,5 +74,6 @@
             </ItemTemplate>
         </asp:ListView>
     </div>
+        </div>
 </asp:Content>
 
