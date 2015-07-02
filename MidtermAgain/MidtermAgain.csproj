@@ -94,6 +94,7 @@
     <Content Include="DynamicData\FieldTemplates\Url.ascx" />
     <Content Include="DynamicData\FieldTemplates\Url_Edit.ascx" />
     <Content Include="Global.asax" />
+    <Content Include="Images\wet-graph-paper-seamless-background.jpg" />
     <Content Include="Site.Mobile.Master" />
     <EntityDeploy Include="Model\SchoolCourses.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -127,7 +128,7 @@
     <Content Include="Content\Style.css" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Icon.png" />
+    <Content Include="Images\Icon.png" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

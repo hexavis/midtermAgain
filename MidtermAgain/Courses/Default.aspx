@@ -15,7 +15,8 @@
                 There are no entries found for Courses
             </EmptyDataTemplate>
             <LayoutTemplate>
-                <table class="table">
+                <div class="table-responsive">
+                <table class="table table-hover table-striped">
                     <thead>
                         <tr>
                             <th>
@@ -40,6 +41,7 @@
                         <tr runat="server" id="itemPlaceholder" />
                     </tbody>
                 </table>
+                    </div>
 				<asp:DataPager PageSize="5"  runat="server">
 					<Fields>
                         <asp:NextPreviousPagerField ShowLastPageButton="False" ShowNextPageButton="False" ButtonType="Button" ButtonCssClass="btn" />
