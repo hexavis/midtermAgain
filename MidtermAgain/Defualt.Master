@@ -4,11 +4,32 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+   <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Spaetzle Web Application" />
+    <meta name="author" content="Jacq Richard" />
     <title></title>
+    <!-- css files -->
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/carousel.css" rel="stylesheet" />
+    <link href="Content/Style.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
+
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="...">
+      </a>
+    </div>
+  </div>
+</nav>
+
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -16,5 +37,21 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
+
+    <!-- FOOTER -->
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2015 Howard's School For the Gifted &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>
+        </div>
+    </nav>
+
+     <!-- java script files-->
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- custom js file -->
 </body>
 </html>
